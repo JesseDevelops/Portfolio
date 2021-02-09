@@ -4,9 +4,292 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jesse Gajda Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
-<body>
+<body class="bg-light">
+
+    <!-- navbar start-->
+    <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+        <div class="container-lg">
+            <a class="navbar-brand text-danger fw-bold fs-4" href="#">Jesse Gajda</a>
+            <div class="dropdown">
+                <button class="btn btn-secondary btn-danger px-3" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-bars"></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                  <li><a class="dropdown-item" href="#home"></a>Home</li>
+                  <li><a class="dropdown-item" href="#about"></a>About</li>
+                  <li><a class="dropdown-item" href="#portfolio"></a>Portfolio</li>
+                  <li><a class="dropdown-item" href="#contact"></a>Contact</li>
+                </ul>
+              </div>
+        </div>
+    </nav>
+    <!-- navbar end-->
+
+
+
+    <!-- home section start-->
+    <section class="home py-5" id="home">
+        <div class="container-lg">
+            <div class="row min-vh-100 align-items-center align-content-center">
+                <div class="col-md-6 mt-5 mt-md-0 ">
+                    <div class="home-img text-center">
+                        <img class="rounded-circle-mw-100">
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+                    <div class="home-text">
+                        <p class="text-muted mb-1">Hello I'm</p>
+                        <h1 class="text-danger text-uppercase fs-1 fw-bold">Full-Stack Developer</h1>
+                        <h2 class="fs-4">Jesse Gajda</h2>
+                        <p class="mt-4 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                        <a href="#portfolio" class="btn btn-danger px-3 mt-3">My Work</a>
+                       
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- home section end-->
+
+    <!-- About section start-->
+    <section class="about py-5" id="about">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">About Me</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <h3 class="fs-4 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 d-flex align-items-center">
+                            <a href="GadjaJesse_Resume.pdf" class="btn px-3 btn-danger me-5">Resume</a>
+                            <div class="social-links">
+                                <a href="#" class="text-dark me-2"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="skill-item">
+                        <h2 class="text-center text-danger">Skills</h2>
+                        <h3 class="fs-6">Java</h3>
+                        <h3 class="fs-6">C#(.Net Framework)</h3>
+                        <h3 class="fs-6">ASP.NET(Webforms, MVC, Core)</h3>
+                        <h3 class="fs-6">Python</h3>
+                        <h3 class="fs-6">jQuery</h3>
+                        <h3 class="fs-6">JavaScript</h3>
+                        <h3 class="fs-6">Vue.js</h3>
+                        <h3 class="fs-6">SQL</h3>
+                        <h3 class="fs-6">HTML5</h3>
+                        <h3 class="fs-6">CSS3</h3>
+                        <h3 class="fs-6">Azure</h3>
+                        <h3 class="fs-6">TFS</h3>
+                        <h3 class="fs-6">Git</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- About section end-->
+
+    <!-- services section start-->
+    <section class="services py-5 bg-danger" id="services">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">What I do</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-item shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-danger fs-2">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">Front End Development</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-item shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-danger fs-2">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">Back End Development</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-item shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-danger fs-2">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">SQL Development</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+
+    <!-- services section end-->
+
+    <!--    Portfolio section start -->
+    <section class="portfolio py-5" id="portfolio">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Recent Projects</h2>
+                    </div>
+                </div>
+            </div>
+       
+        <div class="row">
+            <div class="col-md-6 col-lg-4 cards">
+                <div class="card">
+                    <img src="img/portfolio/jgfitnesslogo.PNG" class="w-100 img-thumbnail" alt="portfolio item">
+                    <div class="card-body">
+                        <h3 class="text-capitalize fs-5 my-2">JG Fitness</h3>
+                        <p class="text-muted">
+                            ASP.NET Core, MSSQL, jQuery, CSS & Google Charts
+                            <br />
+                            <br />
+
+                            Created an application that allowed users to interact with other fitness enthusiasts through forums, allowed them to track BMI(Body Mass Index), create new workout plans and more.  
+                        </p>
+                    </div>
+                    <div class="card-body">
+                        <p><a href="#" class="text-danger text-decoration-none">GitHub</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 cards">
+                <div class="card">
+                    <img src="img/portfolio/loginScreen.JPG" class="w-100 img-thumbnail" alt="portfolio item">
+                    <div class="card-body">
+                        <h3 class="text-capitalize fs-5 my-2">IoT Dashboard PoC</h3>
+                        <p class="text-muted">
+                            ASP.NET Core, MSSQL, jQuery, D3.js & SignalR
+                            <br />
+                            <br />
+                            Created proof of concept for the IoT Lab at Mohawk College. Allowed the lab to use this dashboard to store different projects that rendered real-time data. Allowed continuous integration with their new projects.
+                        </p>
+                    </div>
+                   
+                    <p><a href="#" class="text-danger text-decoration-none"></a></p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 cards">
+                <div class="card">
+                    <img src="img/portfolio/jgfitnesslogo.PNG" class="w-100 img-thumbnail" alt="portfolio item">
+                    <div class="card-body">
+                        <h3 class="text-capitalize fs-5 my-2">Weather App</h3>
+                        <p class="text-muted">Vue.Js & Weather API
+                            <br />
+                            <br />
+                            Users can interact with the application to check current time weather forecast in any location in the world
+                        </p>
+                    </div>
+                    <div class="card-body">
+                        <p><a href="#" class="text-danger text-decoration-none">GitHub</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 cards">
+                <div class="card">
+                    <img src="img/portfolio/vuecalendar.PNG" class="w-100 img-thumbnail" alt="portfolio item">
+                    <div class="card-body">
+                        <h3 class="text-capitalize fs-5 my-2">Calendar Organizer</h3>
+                        <p class="text-muted">Vue.Js, Vuetify & Firebase
+                            <br />
+                            <br />
+                            Created a personal calendar that helps users plan out their days or months. Users are able to add events or reminders that helps them plan their day to day interaction.
+                        </p>
+                    </div>
+                    <div class="card-body">
+                        <p><a href="#" class="text-danger text-decoration-none">GitHub</a></p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    </section>
+    <!--    Portfolio section end -->
+
+    <!-- contact section start  -->
+    <section class="contact py-5" id="contact">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Contact Me</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-4 align-items-center align-content-center">
+                    <div class="contact-item d-flex mb-3">
+                        <div class="icon fs-4 text-danger">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Email</h3>
+                            <p class="text-muted"><a href="mailto:jessegajda@hotmail.com" class="text-danger">jessegajda@hotmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-item d-flex mb-3">
+                        <div class="icon fs-4 text-danger">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Phone</h3>
+                            <p class="text-muted">647-838-4591</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- contact section end  -->
+
+    <footer class="footer border-top py-4 bg-danger">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="m-0 text-center text-light">&copy; 2021 Jesse Gajda</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
