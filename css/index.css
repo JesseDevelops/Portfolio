@@ -24,3 +24,11 @@
 .col-lg-4{
   margin-bottom: 1rem;
 }
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+
+.dropdown-item:active {
+    color:#d9534f;
+    background-color: rgba(255, 255, 255, 0);
+}
